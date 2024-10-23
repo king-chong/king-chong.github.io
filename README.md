@@ -14,20 +14,12 @@ Die Website besteht aus einer einzelnen HTML-Datei, die eine minimalistische Ben
 
 ## Installation und Verwendung
 
-1. Lade die HTML-Datei herunter oder klone das Repository:
-
-    ```bash
-    git clone https://github.com/dein-nutzername/king-chong-website.git
-    ```
-
-2. Öffne die Datei `index.html` in deinem Browser, um die Website anzuzeigen.
-
-    - Für Windows: Doppelklicke auf die Datei `index.html`, um sie im Standardbrowser zu öffnen.
-    - Für Mac/Linux: Klicke mit der rechten Maustaste auf die Datei und wähle "Mit Browser öffnen".
+1. Öffne die Website `https://king-chong.github.io` in deinem Browser, um die Website anzuzeigen.
 
 ## Struktur der Dateien
 
 - `index.html`: Die Hauptdatei, die die Webseite enthält.
+- `sources/styles.css`: Die style datei, die die ganzen CSS-Anweisungen enthält
 - Es gibt keine externen Abhängigkeiten; alle Stile sind direkt in der HTML-Datei definiert.
 
 ## Anpassungen
@@ -36,7 +28,7 @@ Um den Inhalt oder das Design der Website zu ändern:
 
 1. Öffne die `index.html`-Datei in einem Texteditor (wie VS Code, Sublime Text oder Notepad++).
 2. Bearbeite den Inhalt innerhalb des `<body>`-Tags für Textänderungen.
-3. Passe den CSS-Stil innerhalb des `<style>`-Tags für Designänderungen an.
+3. Passe den CSS-Stil innerhalb des `style.css`-Datei für Designänderungen an.
 
 ## Vorschläge und Erweiterungen
 
@@ -45,4 +37,4 @@ Um den Inhalt oder das Design der Website zu ändern:
 
 ## Lizenz
 
-Dieses Projekt steht unter keiner spezifischen Lizenz und kann frei genutzt und angepasst werden.
+Dieses Projekt steht unter der Apache 2.0 Lizenz.
